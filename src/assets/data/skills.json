@@ -1,0 +1,22 @@
+[
+    {
+        "name": "HTML",
+        "exp": 6
+    },
+    {
+        "name": "CSS",
+        "exp": 6
+    },
+    {
+        "name": "JAVASCRIPT",
+        "exp": 3
+    },
+    {
+        "name": "Angular",
+        "exp": 1
+    },
+    {
+        "name": "JAVA",
+        "exp": 1
+    }
+]
