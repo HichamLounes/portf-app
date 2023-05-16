@@ -2,7 +2,7 @@
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
-	margin: 20px;
+    margin: 20px;
 }
 
 :root {
@@ -38,13 +38,14 @@ a {
 
 .team .container {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-    gap: 350px;
+    grid-template-columns: repeat(auto-fill, minmax(1fr));
+    gap: 50px;
+    justify-content: center;
 }
 
 .team .box {
     position: relative;
-    width: 70%;
+    width: 60%;
     margin-left: 15%;
 }
 
@@ -85,7 +86,9 @@ a {
 }
 
 .team .box .data img {
-    max-width: 80%;
+    background-image: url(../../img/imgg.jpg);
+    background-repeat: no-repeat;
+    /* max-width: 80%; */
     border-radius: 10px;
     transition: var(--main-transition);
 }
@@ -142,6 +145,10 @@ a {
 }
 
 @media(max-width:667px) {
+    .team .box {
+        content: "";
+        width: 100%;
+    }
     .team .box::before {
         content: "";
         width: 100%;
@@ -222,18 +229,21 @@ p {
 }
 
 .section-title {
+    
     font-size: 4rem;
     font-weight: 300;
     color: black;
     margin-bottom: 10px;
     text-transform: uppercase;
     letter-spacing: 0.2rem;
-    text-align: left;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
 }
 
 .section-title span {
     color: #3a6cf4;
-    ;
 }
 
 .team .container .boxx {

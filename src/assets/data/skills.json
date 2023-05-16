@@ -18,5 +18,9 @@
     {
         "name": "JAVA",
         "exp": 1
+    },
+    {
+        "name": "Git",
+        "exp": 1
     }
 ]
